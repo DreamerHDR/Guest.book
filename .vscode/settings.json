@@ -1,0 +1,42 @@
+{
+  "liveServer.settings.port": 5501,
+
+  "files.associations": {
+    "*.php": "php",
+    "*.tpl": "php",
+    "*.inc": "php",
+    "*.css": "css",
+    "*.js": "javascript",
+    "/local/templates/**/*.php": "php",
+    "/local/templates/**/*.css": "css",
+    "/local/templates/**/*.js": "javascript",
+  },
+
+  "intelephense.files.exclude": [
+    "**/vendor/**",
+    "**/node_modules/**"
+    // Не исключаем **/local/templates/**!
+  ],
+
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+    // "**/local/templates/**": false — не скрываем шаблоны
+  },
+
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/vendor": true
+    // "**/local/templates/**": false — ищем по шаблонам
+  },
+
+  "javascript.suggest.enabled": true,
+  "javascript.validate.enable": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "javascript.format.enable": true,
+}
