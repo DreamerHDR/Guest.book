@@ -1,7 +1,7 @@
 # 📖 Гостевая книга на PHP + MySQL
 
-[![PHP Version](https://img.shields.io/badge/PHP-7.4%2B-blue.svg)](https://php.net/)
-[![MySQL Version](https://img.shields.io/badge/MySQL-5.7%2B-orange.svg)](https://www.mysql.com/)
+[![PHP Version](https://img.shields.io/badge/PHP-8.3%2B-blue.svg)](https://php.net/)
+[![MySQL Version](https://img.shields.io/badge/MySQL-8.2%2B-orange.svg)](https://www.mysql.com/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 🌐 **Полнофункциональная гостевая книга** с защитой от XSS и SQL-инъекций
